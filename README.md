@@ -1,1 +1,1 @@
-# JortVlaming.github.io
+[Hypixel Skyblock Calculator](HypixelSkyblockCalculator)
