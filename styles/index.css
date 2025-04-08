@@ -24,6 +24,16 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.project {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 700px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .separator {
     width: 100%;
     border-bottom: #ccc 1px solid;
@@ -81,6 +91,17 @@ ul > li:before {
     transform: translateY(-50%);
 }
 
+.tag {
+    display: inline-block;
+    margin: 10px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    max-width: 100%;
+}
+
 .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -101,7 +122,6 @@ ul > li:before {
 .hover-underline-animation:hover::after {
     transform: scaleX(1);
 }
-
 
 .hover-underline-animation.center::after {
     transform-origin: bottom center;
