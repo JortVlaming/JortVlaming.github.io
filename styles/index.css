@@ -40,6 +40,39 @@ a {
     font-weight: bold;
 }
 
+.education {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    float: left;
+}
+
+.education .left {
+    width: 40%;
+}
+
+.right {
+    float: right;
+    text-align: left;
+}
+
+.education .right {
+    width: 60%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+ul > li:before {
+    content: "-";
+    text-indent: -5px;
+    padding-right: 10px;
+}
+
 .vertical-center {
     margin: 0;
     position: absolute;
